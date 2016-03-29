@@ -1,0 +1,6 @@
+/etc/default/grub -- grub timeout
+/etc/X11/xorg.conf.d/10-dpms.conf -- monitor power management prefs
+~/.xinitrc -- Xorg prefs
+~/.bash_profile -- startx
+/etc/systemd/system/getty@tty1.service.d/autologin.conf -- autologin
+/usr/bin/xresolution -- auto resolution detection

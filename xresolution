@@ -1,0 +1,2 @@
+#!/bin/bash
+xev -root -event randr | while read line ; do xrandr --auto ; done &
